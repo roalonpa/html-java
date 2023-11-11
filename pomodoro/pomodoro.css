@@ -1,0 +1,106 @@
+body {
+    background-color:whitesmoke;
+}
+
+#app {
+    background-color:white;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 8%;
+    padding: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.20);
+}
+
+#title {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+#subtitle {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+#time {
+    display: block;
+    text-align: center;
+}
+
+#value {
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+#taskName {
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#form {
+    margin: 20px;
+    text-align: center;
+    display: block;
+}
+
+#itTask {
+    padding: 5px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.20);
+}
+
+#Add {
+    padding: 5px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    background-color: dodgerblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.20);
+}
+
+#task {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+#tasks {
+    display:block;
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+
+.done {
+    padding: 2px 25px;
+    background-color: rgb(239, 247, 255);
+}
+
+.start-button {
+    padding: 2px 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    background-color: rgb(196, 226, 255);
+    border: 1px solid black;
+    border-radius: 4px;
+
+}
