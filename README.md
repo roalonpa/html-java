@@ -1,2 +1,2 @@
-# HTML and JAVASCRIPT
+# Mini Games and Apps
 small apps and games

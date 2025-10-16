@@ -1,9 +1,7 @@
-
 const number = document.querySelector('#number');
 const result = document.querySelector('#result');
 
-
-//para saber si un numero es primo
+//to know if a number is prime or not
 function isPrime (number) {
     if(number < 2 ) {
         return false;
@@ -26,7 +24,7 @@ number.addEventListener("input", function (ev) {
     }
 });
 
-//lista de numeros primos hasta el numero ingresado en un input
+//list of prime numbers up to the number entered in input
 function primesUpto(upto) {
     var result = '';
     for (var i = 2; i < upto; i++) {
@@ -38,30 +36,27 @@ function primesUpto(upto) {
     return result;
 }
 
-
-
 const uNumber = document.querySelector('#uptoNumber');
-let miString = document.querySelector('#allResult');
+let allResult = document.querySelector('#allResult');
 
-function reset(uNumber, miString){
+function reset(uNumber, allResult){
     uNumber.value = "";
-    miString.innerHTML= "";
+    allResult.innerHTML= "";
 }
+
 uNumber.addEventListener("input", (e) => {
-    let miString = document.querySelector('#allResult');
+    let allResult = document.querySelector('#allResult');
     const upto = parseInt(uNumber.value);
     if (isNaN(upto)){
-        miString.innerHTML = '';
+        allResult.innerHTML = '';
         return;
     }
     if (upto > 10000) {
         alert("please choose a number under 10.000")
-        reset(uNumber, miString);
+        reset(uNumber, allResult);
     } else if (upto == 2) {
-        miString.innerHTML = '2';
+        allResult.innerHTML = '2';
     } else {
-        miString.innerHTML = primesUpto(upto);
+        allResult.innerHTML = primesUpto(upto);
     }
-
-    console.log('miString', miString)
 })

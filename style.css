@@ -1,0 +1,57 @@
+
+#app {
+    text-align: center;
+    background-color: ghostwhite;
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+    padding: 10px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.20);
+}
+
+#title {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+
+#input {
+    margin: 10px auto 0 auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 750px;
+    height: 70px;
+    padding: 0 10px;
+    background-color: azure;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.20);
+}
+
+#keyboard-container {
+    background-color:floralwhite;
+    text-align: center;
+    width: fit-content;
+    padding: 2%;
+    margin: 10px auto 50px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.20);
+}
+
+.key {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin: 10px 2px;
+    padding: 10px 15px;
+    background-color: azure;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.key-space {
+   padding: 38px 150px 17px 150px;
+   margin-top: 0; 
+}

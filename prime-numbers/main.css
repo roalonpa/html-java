@@ -97,21 +97,21 @@ body {
  border-radius: 10px;
  padding: 10px;
  margin-top: 10%;
- max-width: 238px;
+ max-width: 300px;
 }
 
 #PrimeTrue {
     background-color: rgb(180, 255, 155);
     padding: 10px;
     border-radius: 10px;
-    max-width: 238px;
+    max-width: 300px;
 }
 
 #PrimeFalse {
     background-color: rgb(255, 155, 155);
     padding: 10px;
     border-radius: 10px;
-    max-width: 238px;
+    max-width: 300px;
 }
 
 #allPrime {
@@ -146,6 +146,6 @@ body {
     border-radius: 10px;
     padding: 10px;
     margin-top: 10%;
-    max-width: 238px;
-    text-wrap:balance;
+    max-width: 300px;
+    text-wrap: balance;
 }
