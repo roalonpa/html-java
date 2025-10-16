@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="1048913.png">
+</head>
+<body>
+
+    <div id="app">
+        <div id="calculadora" class="tema1">
+                <button id="comoUsar" onclick="mostrarInstrucciones()" class="instruccionesTema1">Don't know how to ue it?</button>
+            <br>
+                <input type="number" id="input1" class="inputTema1">
+                <input type="number" id="input2" class="inputTema1">
+            <br>
+            <br>
+                <button onclick="sumar(input1.value, input2.value)" class="cortosTema1 cortos">+</button>
+                <button onclick="restar(input1.value, input2.value)" class="cortosTema1 cortos">-</button>
+                <button onclick="multiplicar(input1.value, input2.value)" class="cortosTema1 cortos">x</button>
+                <button onclick="dividir(input1.value, input2.value)" class="cortosTema1 cortos">/</button>
+            <br>
+                <div id="otrasOperaciones">
+                    <button onclick="potencia(input1.value, input2.value)" class="largosTema1 largos">power</button>
+                    <button onclick="raiz(input2.value)" class="largosTema1 largos">Square root</button>
+                    <br>
+                    <button onclick="absoluto(input2.value)" class="largosTema1 largos">Absolute value</button>
+                    <button onclick="random()" class="largosTema1 largos">Random</button>
+                </div>
+
+                <h3 id="tituloResultado" class="resultadoTema1">Result:</h3>
+                <h4 id="resultado" class="resultadoTema1">-</h4>
+
+                <div id="Redondear">
+                    <button onclick="redondear()" class="largosTema1 mediano">Round</button>
+                    <button onclick="redondearAbajo()" class="largosTema1 mediano">Floor</button>
+                    <button onclick="redondearArriba()" class="largosTema1 mediano">Ceil</button>
+                </div>
+                <button onclick="borrar()" class="cortosTema1" id="borrar">Delete</button>
+        </div>
+        <div id="temas">
+            <h3 id="temasTitulo">Themes: </h1>
+            <button id="cambiarTema1" onclick="cambiarTema1()" class="cambioTema"></button>
+            <button id="cambiarTema2" onclick="cambiarTema2()" class="cambioTema"></button>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

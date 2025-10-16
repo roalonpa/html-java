@@ -4,13 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Numeros Primos</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="Screenshot 2024-01-18 at 16.02.38.png">
 </head>
 <body>
-    <h1 id="ingresa">Ingresa un numero:</h1>
-    <form action="" id="form">
-        <input type="number" id="number">
-    </form>
-    <h1 id="result"></h1>
+<div id="all">
+    <h1 id="title">Prime Numbers</h1>
+        <p id="definition">Prime numbers are natural numbers that are divisible by only 1 and the number itself.</p>
+        <div id="PrimeNumbers">
+            <div id="titlePrimeNumbers">
+                <h3 id="keycharacteristics">Key Characteristics of Prime Numbers:</h3>
+            </div>
+            <div id="contentPrimeNumbers">
+                <h4 class="title-characteristics">Divisibility:</h4>
+                <p class="characteristic">A prime number cannot be evenly divided by any other numbers except 1 and itself.</p>
+                <h4 class="title-characteristics">Infinitude:</h4>
+                <p class="characteristic">There are infinitely many prime numbers.</p>
+                <h4 class="title-characteristics">Unique Prime Factorization:</h4>
+                <p class="characteristic">Every integer greater than 1 can be expressed uniquely as a product of prime numbers.</p>
+            </div>
+        </div>
+    <div id="boxes">
+        <div id="app">
+            <div id="titleApp">
+                <h2>Prime number calculator</h2>
+            </div>
+            <div id="contentApp">
+                <h3 id="enter">Enter a number:</h3>
+                <form action="" id="form">
+                    <input type="number" id="number" maxlength="16">
+                </form>
+                <div id="answerBox">
+                    <h3 id="answer">answer:</h3>
+                    <p id="result"></p>
+                </div>
+            </div>
+        </div>
+        <div id="allPrime">
+            <div id="titleAllPrime">
+                <h2>All prime numbers:</h2>
+            </div>
+            <div id="contentAllPrime">
+                <h3>All prime numbers between 1 and</h3>
+                <form action="" id="form">
+                    <input type="number" id="uptoNumber" maxlength="16">
+                </form>
+                <div id="allAnswerBox">
+                    <h3 id="allAnswers">answer:</h3>
+                    <p id="allResult"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</div>
     <script src="main.js"></script>
 </body>
 </html>

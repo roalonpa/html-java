@@ -1,0 +1,174 @@
+#app {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#calculadora {
+    border: 1px solid black;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin: 0 auto;
+    padding: 10px 50px 50px 50px;
+    width: 500px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.20);
+}
+
+#comoUsar {
+    margin: 0 auto 40px auto;
+    border: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.instruccionesTema1 {
+    background-color: #efefef;
+    color: black
+}
+
+.instruccionesTema2 {
+    background-color: #000000;
+    color: white;
+}
+
+#input1 {
+    width: 221px;
+    height: 40px;
+    font-size: 20px;
+    margin: 0 4px 0 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#input2 {
+    width: 221px;
+    height: 40px;
+    font-size: 20px;
+    margin: 0 0 0 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cortos {
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.largos {
+    width: 221px;
+    height: 40px;
+    margin: 8px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#tituloResultado {
+    font-size: 20px;
+}
+
+#resultado {
+    font-size: 40px;
+    margin: 0 0 10px 0;
+}
+
+.mediano {
+    width: 142px;
+    height: 40px;
+    margin: 4px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#borrar {
+    width: 450px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, rgb(126, 222, 254) 0%, rgb(90, 196, 231)  51%, rgb(126, 222, 254)  100%);
+    border-radius: 5px;
+}
+
+#temas {
+    width: 500px;
+    height: 50px;
+    padding: 10px 50px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.20);
+}
+
+.cambioTema {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+#cambiarTema1 {
+    background-image: linear-gradient(to right, #000000 0%, #7f7f7f  51%, #373737 100%);
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+}
+
+#cambiarTema2 {
+    background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF  51%, #ECE9E6 100%);
+    color: rgb(255, 255, 255);            
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+.tema1 {
+    background-color: #fff;
+}
+
+.cortosTema1 {
+    background-image: linear-gradient(to right, #efefef 0%, #ffffff  51%, #ededed 100%);
+    border: 1px solid black;
+}
+
+.largosTema1 {
+    background-image: linear-gradient(to right, #c6c6c6 0%, #e0e0e0  51%, #bbbbbb 100%);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.resultadoTema1 {
+    color:#000000;
+}
+
+.tema2 {
+    background-color: #242424;
+}
+
+.cortosTema2 {
+    background-image: linear-gradient(to right, #373737 0%, #494949  51%, #2a2a2a  100%);
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.largosTema2 {
+    background-image: linear-gradient(to right, #8e8e8e 0%, #a8a8a8  51%, #939393  100%);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.inputTema2 {
+    border: 1px solid rgb(176, 176, 176);
+    background-color: #242424;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.resultadoTema2 {
+    background-color: #242424;
+    color: rgb(255, 255, 255);
+}
